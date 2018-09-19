@@ -6,20 +6,13 @@ using System.Threading.Tasks;
 
 namespace alphaMap
 {
-    public enum MapLayer
-    {
-        Layer0 = 0,
-        Layer1,
-        Layer2,
-        Layer3
-    }
-    public class Map
+    public class ExtendedMap
     {
         private List<short>[] layers = new List<short>[4];
         private short sz, tileSz;
         private bool isNewMap;
 
-        public Map( short mapSize, short tileSize, bool isNew )
+        public ExtendedMap( short mapSize, short tileSize, bool isNew )
         {
             sz = mapSize;
             tileSz = tileSize;

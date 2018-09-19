@@ -9,9 +9,9 @@ namespace alphaMap
     public enum MapLayer
     {
         Layer0 = 0,
-        Layer1 = 1,
-        Layer2 = 2,
-        Layer3 = 3
+        Layer1,
+        Layer2,
+        Layer3
     }
     public class Map
     {

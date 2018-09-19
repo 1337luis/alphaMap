@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CompiledMap.cs" />
+    <Compile Include="ExtendedMap.cs" />
     <Compile Include="MainSelector.cs">
       <SubType>Form</SubType>
     </Compile>

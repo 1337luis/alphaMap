@@ -11,7 +11,7 @@ namespace alphaMap
     {
         Bitmap map;
         short id;
-        public CompiledMap(Bitmap map, short mapId)
+        public CompiledMap( Bitmap map, short mapId )
         {
             this.map = map;
             this.id = mapId;
